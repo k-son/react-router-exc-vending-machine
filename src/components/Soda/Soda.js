@@ -13,7 +13,7 @@ class Soda extends Component {
           <h1>SODAAAAA IS MY FAVORITE</h1>
           <h3>But now I drink sparkling water instead</h3>
           <p>(I still miss Soda)</p>
-          <Link to='/'>Go Back</Link>
+          <Link to='/'>Go Home</Link>
         </Message>
 
         <img src={sodaImg} alt='coca cola can' />

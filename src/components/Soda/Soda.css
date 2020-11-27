@@ -1,11 +1,13 @@
 .Soda {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100vh;
 }
 
 .Soda img {
+  height: 200px;
+  width: auto;
   animation: spin 1s linear infinite;
 }
 

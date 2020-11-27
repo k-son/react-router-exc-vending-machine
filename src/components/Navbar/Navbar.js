@@ -5,7 +5,7 @@ import './Navbar.css';
 class Navbar extends Component {
   render() {
     return(
-      <div className="Navbar">
+      <nav className="Navbar">
         <NavLink exact activeClassName="Navbar-active" to='/'>
           Home
         </NavLink>
@@ -18,7 +18,7 @@ class Navbar extends Component {
         <NavLink exact activeClassName='Navbar-active' to='/sardines'>
           Sardines
         </NavLink>
-      </div>
+      </nav>
     );
   }
 }
