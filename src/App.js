@@ -1,6 +1,8 @@
 import React from 'react';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
 import VendingMachine from './components/VendingMachine/VendingMachine';
+import Navbar from './components/Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (
